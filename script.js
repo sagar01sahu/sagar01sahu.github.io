@@ -30,3 +30,7 @@ const cmds=['spring-ai --rag simple-docs','redis-cli monitor cache','jpa @Versio
 (function ty(){const s=cmds[ci],e=$('#typed');cc+=cd?-1:1;e.textContent=s.slice(0,cc);if(!cd&&cc==s.length){cd=true;return setTimeout(ty,1400)}if(cd&&cc==0){cd=false;ci=(ci+1)%cmds.length}setTimeout(ty,cd?30:70)})();
 $('#theme').onclick=()=>{const r=document.documentElement;r.dataset.theme=r.dataset.theme=='dark'?'':'dark'};
 if(matchMedia('(pointer:fine)').matches){const c=$('#cursor');c.style.display='block';addEventListener('mousemove',e=>c.style.transform=`translate(${e.clientX+4}px,${e.clientY+4}px)`)}
+
+/* photo: try common file names/extensions, fall back to initials */
+(function(){const names=['photo.jpg','photo.jpeg','photo.png','photo.webp','Photo.jpg','Photo.png','photo.JPG','photo.PNG','me.jpg','profile.jpg'];
+$$('img[data-try]').forEach(img=>{let i=0;img.onerror=()=>{i++;if(i<names.length)img.src=names[i];else{const d=document.createElement('div');d.textContent='SKS';img.replaceWith(d)}};img.src=names[0]})})();
