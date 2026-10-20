@@ -4,249 +4,133 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sagar Kumar Sahu — Backend Engineer</title>
-<meta name="description" content="Sagar Kumar Sahu — Backend Software Engineer. Java, Spring Boot, microservices, and distributed systems.">
+<meta name="description" content="Sagar Kumar Sahu — Backend Engineer. Java, Spring Boot, Spring AI, microservices and distributed systems.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<div class="glow g1"></div><div class="glow g2"></div>
 
-<div class="grid-field" aria-hidden="true"></div>
-
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="mark" href="#top">SKS</a>
-    <nav>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
+<header class="nav">
+  <a class="logo" href="#top">sks<span>.dev</span></a>
+  <nav>
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a>
+    <a class="pill" href="#contact">Hire me</a>
+  </nav>
 </header>
 
 <main id="top">
-
-  <!-- ============ HERO / TITLE BLOCK ============ -->
-  <section class="hero wrap">
-    <div class="titleblock">
-      <div class="tb-row">
-        <span class="tb-key">Name</span><span class="tb-val">Sagar Kumar Sahu</span>
-        <span class="tb-key">Role</span><span class="tb-val">Backend Engineer</span>
-      </div>
-      <div class="tb-row">
-        <span class="tb-key">Based</span><span class="tb-val">Berhampur, Odisha, IN</span>
-        <span class="tb-key">Status</span><span class="tb-val tb-live">Open to opportunities</span>
-      </div>
+<section class="hero wrap">
+  <div class="hero-text reveal">
+    <span class="badge"><i></i> Open to opportunities</span>
+    <h1>Hi, I'm <em>Sagar</em>.<br>I build backends that <span class="grad">scale &amp; think.</span></h1>
+    <p class="typed">Currently: <b id="typed"></b><span class="caret">|</span></p>
+    <p class="lede">CS undergrad at VIT Bhopal. I design REST APIs, microservices and event-driven systems with Java and Spring Boot, and I'm now adding AI to them with Spring AI.</p>
+    <div class="cta">
+      <a class="btn" href="#projects">View projects</a>
+      <a class="btn ghost" href="mailto:sagar27sahu@gmail.com">Email me</a>
     </div>
+  </div>
+  <div class="photo reveal">
+    <div class="ring"><img src="photo.jpg" alt="Sagar Kumar Sahu" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="initials">SKS</span></div>
+    <div class="chip c1">☕ Java 17/21</div><div class="chip c2">🍃 Spring Boot</div><div class="chip c3">🤖 Spring AI</div>
+  </div>
+</section>
 
-    <h1>I build backend systems that keep working&nbsp;<br class="br-desktop">when the traffic doesn't behave.</h1>
+<section class="wrap stats reveal">
+  <div><b>9.07</b><span>CGPA / 10</span></div>
+  <div><b>10770</b><span>GATE 2026 AIR</span></div>
+  <div><b>250+</b><span>LeetCode solved</span></div>
+  <div><b>5</b><span>Backend systems</span></div>
+</section>
 
-    <p class="lede">Computer Science undergraduate at VIT Bhopal, focused on Java and Spring Boot. I've spent the
-      last couple of years designing REST APIs, modelling databases, and reasoning through the concurrency,
-      caching, and event-driven problems that show up once a system has more than one user hitting it at once.</p>
+<section id="about" class="wrap section reveal">
+  <h2>About</h2>
+  <p class="about">I like the problems that only appear when many users hit a system at once: double-booking, cache invalidation, slow dispatch, noisy logs. My projects tackle these with optimistic locking, Redis, Kafka and clean layered design. Based in Berhampur, Odisha.</p>
+</section>
 
-    <div class="cta-row">
-      <a class="btn-primary" href="#projects">See the systems I've built</a>
-      <a class="btn-ghost" href="mailto:sagar27sahu@gmail.com">sagar27sahu@gmail.com</a>
-    </div>
+<section id="skills" class="wrap section">
+  <h2 class="reveal">Skills</h2>
+  <div class="bento">
+    <div class="card hot reveal"><h3>🤖 AI Integration</h3><p class="tags"><span>Spring AI</span><span>LLM APIs</span><span>RAG</span><span>Prompt Engineering</span><span>Vector Stores</span><span>Embeddings</span></p></div>
+    <div class="card reveal"><h3>Languages</h3><p class="tags"><span>Java</span><span>Python</span><span>SQL</span></p></div>
+    <div class="card wide reveal"><h3>Backend</h3><p class="tags"><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span><span>JWT</span><span>Hibernate / JPA</span><span>REST</span><span>GraphQL</span></p></div>
+    <div class="card wide reveal"><h3>Systems &amp; DevOps</h3><p class="tags"><span>Microservices</span><span>Spring Cloud</span><span>Kafka</span><span>Redis</span><span>Docker</span><span>Optimistic Locking</span><span>GitHub Actions</span><span>System Design</span></p></div>
+    <div class="card reveal"><h3>Databases</h3><p class="tags"><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span></p></div>
+    <div class="card reveal"><h3>Tools</h3><p class="tags"><span>Git</span><span>Maven</span><span>Postman</span><span>Lombok</span></p></div>
+  </div>
+</section>
 
-    <dl class="spec-strip" aria-label="Quick facts">
-      <div><dt>CGPA</dt><dd>9.07 / 10</dd></div>
-      <div><dt>GATE 2026 (CS)</dt><dd>AIR 10770</dd></div>
-      <div><dt>LeetCode</dt><dd>250+ solved</dd></div>
-      <div><dt>Backend systems shipped</dt><dd>5</dd></div>
-    </dl>
-  </section>
+<section id="projects" class="wrap section">
+  <h2 class="reveal">Projects</h2>
+  <div class="projects">
+    <article class="proj reveal"><div class="top"><h3>RailConnect</h3><a href="https://github.com/sagar01sahu" target="_blank" rel="noopener">GitHub ↗</a></div>
+      <p class="sub">Railway ticket booking API</p>
+      <p>JWT auth with client/admin roles, JPA <code>@Version</code> optimistic locking against double-booking, and Redis caching that cut search latency from ~50ms to ~2ms.</p>
+      <p class="tags"><span>Spring Boot 3</span><span>MySQL</span><span>Redis</span><span>JWT</span></p></article>
+    <article class="proj reveal"><div class="top"><h3>eKart Pro</h3><a href="https://github.com/sagar01sahu" target="_blank" rel="noopener">GitHub ↗</a></div>
+      <p class="sub">Multi-vendor e-commerce backend</p>
+      <p>RBAC for Customer, Seller and Admin, an 11-entity schema, a <code>@Transactional</code> order pipeline, and revenue/GMV analytics.</p>
+      <p class="tags"><span>Spring Security 6</span><span>PostgreSQL</span><span>Hibernate</span></p></article>
+    <article class="proj reveal"><div class="top"><h3>AgriRent</h3><a href="https://github.com/sagar01sahu" target="_blank" rel="noopener">GitHub ↗</a></div>
+      <p class="sub">Microservices for farm equipment rental</p>
+      <p>Nine services behind Spring Cloud Gateway, Kafka events (<code>order.created</code>, <code>payment.settled</code>), database-per-service, Redis-cached vendor matching.</p>
+      <p class="tags"><span>Spring Cloud</span><span>Kafka</span><span>Redis</span><span>MySQL</span></p></article>
+    <article class="proj reveal"><div class="top"><h3>CyberGuard AI</h3><a href="https://github.com/sagar01sahu" target="_blank" rel="noopener">GitHub ↗</a></div>
+      <p class="sub">Anomaly detection orchestration backend</p>
+      <p>Dual auth (API key for log ingestion, JWT for dashboard), risk scoring via an external FastAPI + PyTorch service, alerts above 0.85 with retry and fallback.</p>
+      <p class="tags"><span>Spring Boot</span><span>PostgreSQL</span><span>JWT</span><span>AI service</span></p></article>
+    <article class="proj reveal"><div class="top"><h3>LastMile Pro</h3><a href="https://github.com/sagar01sahu/LastMileDeliveryPro" target="_blank" rel="noopener">GitHub ↗</a></div>
+      <p class="sub">Last-mile delivery management</p>
+      <p>Server-verified <code>PricingEngine</code>, event-driven auto-assignment using Haversine proximity and load, async notifications, append-only status audit trail.</p>
+      <p class="tags"><span>Java 21</span><span>Spring Boot 3.3</span><span>PostgreSQL 16</span></p></article>
+  </div>
+</section>
 
-  <!-- ============ SKILLS ============ -->
-  <section id="skills" class="wrap section">
-    <h2 class="section-title">What I work with</h2>
-    <div class="skill-schema">
+<section id="experience" class="wrap section reveal">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="tl"><span class="date">May – Jun 2025</span>
+      <h3>SDE Intern · Bluestock Fintech</h3>
+      <p>Built REST API modules in an agile team, helped with debugging, testing and performance work, and took part in code reviews and stand-ups.</p></div>
+    <div class="tl"><span class="date">2023 – 2027</span>
+      <h3>B.Tech CSE · VIT Bhopal University</h3>
+      <p>CGPA 9.07/10. DSA, OOP, DBMS, OS, Networks, Software Engineering, System Design.</p></div>
+  </div>
+  <h2 class="sub2">Achievements</h2>
+  <div class="achv">
+    <div>GATE 2026 CS<b>AIR 10770 · 461</b></div>
+    <div>NPTEL Marketing Analytics<b>Elite, Top 5%</b></div>
+    <div>NPTEL Intro to ML (IIT Madras)<b>2025</b></div>
+    <div>Google Networking (Coursera)<b>2024</b></div>
+  </div>
+</section>
 
-      <div class="skill-row">
-        <span class="skill-key">Languages</span>
-        <span class="skill-vals">Java · Python · SQL</span>
-      </div>
-      <div class="skill-row">
-        <span class="skill-key">Backend</span>
-        <span class="skill-vals">Spring Boot · Spring MVC · Spring Security · JWT (JJWT) · Hibernate · JPA · REST APIs · GraphQL</span>
-      </div>
-      <div class="skill-row">
-        <span class="skill-key">Systems &amp; DevOps</span>
-        <span class="skill-vals">Microservices · System Design · Spring Cloud · Kafka · Redis · Docker · Optimistic Locking · Git · GitHub Actions</span>
-      </div>
-      <div class="skill-row">
-        <span class="skill-key">Databases</span>
-        <span class="skill-vals">PostgreSQL · MySQL · MongoDB</span>
-      </div>
-      <div class="skill-row">
-        <span class="skill-key">Frontend</span>
-        <span class="skill-vals">HTML5 · CSS3</span>
-      </div>
-      <div class="skill-row">
-        <span class="skill-key">Tools</span>
-        <span class="skill-vals">Maven · Postman · Lombok</span>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ============ PROJECTS ============ -->
-  <section id="projects" class="wrap section">
-    <h2 class="section-title">Backend systems I've designed</h2>
-    <p class="section-note">Five projects spanning ticketing, e-commerce, microservices, security telemetry, and
-      logistics. Each entry below covers the backend architecture only.</p>
-
-    <div class="project-list">
-
-      <article class="proj">
-        <header class="proj-head">
-          <h3>RailConnect</h3>
-          <span class="proj-sub">Railway Ticket Booking Backend API</span>
-          <a class="proj-link" href="https://github.com/sagar01sahu" target="_blank" rel="noopener">Repository ↗</a>
-        </header>
-        <p class="proj-stack">Java 17 · Spring Boot 3 · Spring Security · JWT · JPA/Hibernate · MySQL · Redis</p>
-        <ul>
-          <li>Stateless REST API for railway schedules and ticket booking, with JWT authentication and role-based access for <code>ROLE_CLIENT</code> and <code>ROLE_ADMIN</code>.</li>
-          <li>Optimistic locking via JPA <code>@Version</code> to stop double-booking when two requests hit the same seat at once.</li>
-          <li>Redis caching on train search (<code>@Cacheable</code> / <code>@CacheEvict</code>), cutting response times from ~50ms to ~2ms.</li>
-          <li>Normalized MySQL schema and layered REST endpoints for registration, login, search, booking, and admin train management.</li>
-        </ul>
-      </article>
-
-      <article class="proj">
-        <header class="proj-head">
-          <h3>eKart Pro</h3>
-          <span class="proj-sub">Multi-Vendor E-Commerce Backend</span>
-          <a class="proj-link" href="https://github.com/sagar01sahu" target="_blank" rel="noopener">Repository ↗</a>
-        </header>
-        <p class="proj-stack">Java 17/22 · Spring Boot 3 · Spring Security 6 · JWT · PostgreSQL · Hibernate</p>
-        <ul>
-          <li>Backend for a multi-vendor marketplace with stateless JWT auth and RBAC across Customer, Seller, and Admin roles.</li>
-          <li>Relational schema of 11 entities — users, products, orders, payments, reviews, carts, wishlists — with enforced foreign-key integrity.</li>
-          <li>Transactional order pipeline (<code>@Transactional</code>) covering stock validation, inventory deduction, payment record creation, and cart clearing.</li>
-          <li>Seller and admin analytics services aggregating revenue, GMV, and order-pipeline status transitions.</li>
-        </ul>
-      </article>
-
-      <article class="proj">
-        <header class="proj-head">
-          <h3>AgriRent</h3>
-          <span class="proj-sub">Microservices Backend for Farm Equipment Rental</span>
-          <a class="proj-link" href="https://github.com/sagar01sahu" target="_blank" rel="noopener">Repository ↗</a>
-        </header>
-        <p class="proj-stack">Microservices · Spring Cloud · Kafka · Redis · MySQL · REST APIs</p>
-        <ul>
-          <li>Architected a microservices backend connecting farmers with equipment vendors — Auth, Zone, Vendor, Catalog, Order, Payment, Advisory, Community, and AI Assistant services.</li>
-          <li>JWT authentication and RBAC (Admin, Vendor, Farmer, Expert) enforced at both the API Gateway and service level with Spring Cloud Gateway.</li>
-          <li>Asynchronous, event-driven communication via Kafka (<code>order.created</code>, <code>order.completed</code>, <code>payment.settled</code>) on a database-per-service pattern.</li>
-          <li>Vendor-matching logic spanning the Zone and Vendor services, with Redis caching for availability lookups.</li>
-        </ul>
-      </article>
-
-      <article class="proj">
-        <header class="proj-head">
-          <h3>CyberGuard AI</h3>
-          <span class="proj-sub">Microservice Anomaly Detection Backend</span>
-          <a class="proj-link" href="https://github.com/sagar01sahu" target="_blank" rel="noopener">Repository ↗</a>
-        </header>
-        <p class="proj-stack">Java 17 · Spring Boot · PostgreSQL / H2 · JWT · Microservices · REST APIs</p>
-        <ul>
-          <li>Built the Spring Boot orchestration layer that ingests enterprise access logs through a secured <code>X-API-Key</code> endpoint and persists state in PostgreSQL/H2.</li>
-          <li>Dual authentication design — <code>ApiKeyAuthFilter</code> for machine-to-machine log ingestion, <code>JwtAuthenticationFilter</code> for dashboard access.</li>
-          <li><code>LogProcessingService</code> pulls historical context per entity, calls a separate AI microservice for a risk score, and raises alerts above a 0.85 threshold with retry/fallback handling.</li>
-          <li>REST endpoints for live alerts, dashboard stats, and telemetry, integrating with an external FastAPI + PyTorch Geometric scoring service over HTTP.</li>
-        </ul>
-      </article>
-
-      <article class="proj">
-        <header class="proj-head">
-          <h3>LastMile Pro</h3>
-          <span class="proj-sub">Last-Mile Delivery Management Backend</span>
-          <a class="proj-link" href="https://github.com/sagar01sahu/LastMileDeliveryPro" target="_blank" rel="noopener">Repository ↗</a>
-        </header>
-        <p class="proj-stack">Java 21 · Spring Boot 3.3 · Spring Security (JWT) · PostgreSQL 16 · Spring Mail</p>
-        <ul>
-          <li>Modular-monolith backend for a multi-tenant delivery platform, with dynamic zone detection and dimensional pricing.</li>
-          <li>Deterministic <code>PricingEngine</code>: volumetric-vs-actual weight, weight-bracket billing, and COD surcharge formulas, re-verified server-side on order confirmation to prevent price tampering.</li>
-          <li><code>AutoAssignmentServiceImpl</code> decouples dispatch from order creation via <code>ApplicationEventPublisher</code> — filtering agents by zone/availability, ranking by load and Haversine proximity, and logging immutable assignment history.</li>
-          <li>Async, event-driven customer notifications for status changes, failed deliveries, and reschedules, backed by an append-only <code>order_status_history</code> audit trail.</li>
-        </ul>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ============ EXPERIENCE ============ -->
-  <section id="experience" class="wrap section">
-    <h2 class="section-title">Experience</h2>
-    <div class="log-entry">
-      <div class="log-meta">
-        <span class="log-date">May 2025 – Jun 2025</span>
-      </div>
-      <div class="log-body">
-        <h3>Software Development Engineer (SDE) Intern</h3>
-        <span class="log-org">Bluestock Fintech</span>
-        <ul>
-          <li>Contributed to backend development of platform features, working on REST API modules in an agile engineering team.</li>
-          <li>Collaborated on debugging, testing, and performance improvements for production backend application modules.</li>
-          <li>Participated in code reviews and daily stand-ups, gaining exposure to real-world software development workflows in a fast-moving fintech startup.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ EDUCATION + CERTIFICATIONS ============ -->
-  <section class="wrap section two-col">
-    <div>
-      <h2 class="section-title">Education</h2>
-      <div class="edu-block">
-        <div class="log-meta"><span class="log-date">2023 – 2027 (Expected)</span></div>
-        <h3>B.Tech, Computer Science &amp; Engineering</h3>
-        <span class="log-org">VIT Bhopal University · CGPA 9.07 / 10</span>
-        <p class="coursework">Data Structures &amp; Algorithms, OOP, Database Management Systems, Operating
-          Systems, Computer Networks, Software Engineering, System Design.</p>
-      </div>
-    </div>
-    <div>
-      <h2 class="section-title">Certifications &amp; Achievements</h2>
-      <ul class="achv-list">
-        <li><span>GATE 2026 (Computer Science)</span><span>AIR 10770 · Score 461</span></li>
-        <li><span>Marketing Analytics — NPTEL, IIT Kharagpur</span><span>Elite, Top 5% · 2026</span></li>
-        <li><span>Introduction to Machine Learning — NPTEL, IIT Madras</span><span>2025</span></li>
-        <li><span>The Bits and Bytes of Computer Networking — Google / Coursera</span><span>2024</span></li>
-        <li><span>Data Structures &amp; Algorithms</span><span>250+ problems on LeetCode</span></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ============ CONTACT ============ -->
-  <section id="contact" class="wrap section contact-section">
-    <div class="titleblock">
-      <div class="tb-row">
-        <span class="tb-key">Looking for</span><span class="tb-val">Backend / Java engineering roles &amp; internships</span>
-      </div>
-      <div class="tb-row">
-        <span class="tb-key">Reach me</span><span class="tb-val">sagar27sahu@gmail.com</span>
-      </div>
-    </div>
-    <h2 class="contact-heading">Have a backend problem worth solving?</h2>
-    <div class="contact-links">
-      <a href="mailto:sagar27sahu@gmail.com">sagar27sahu@gmail.com</a>
-      <a href="tel:+917735626615">+91-7735626615</a>
-      <a href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://github.com/sagar01sahu" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://sagar01sahu.github.io/" target="_blank" rel="noopener">Portfolio</a>
-    </div>
-  </section>
-
+<section id="contact" class="wrap section contact reveal">
+  <h2>Have a backend problem worth solving?</h2>
+  <p>Looking for Backend / Java roles and internships.</p>
+  <div class="cta c">
+    <a class="btn" href="mailto:sagar27sahu@gmail.com">sagar27sahu@gmail.com</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn ghost" href="https://github.com/sagar01sahu" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn ghost" href="tel:+917735626615">+91 77356 26615</a>
+  </div>
+</section>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">© 2026 Sagar Kumar Sahu · Built with HTML &amp; CSS</div>
-</footer>
+<footer>© 2026 Sagar Kumar Sahu</footer>
 
+<script>
+const words=["Spring AI & RAG pipelines","Kafka event-driven systems","Redis caching strategies","Microservices on Spring Cloud"];
+let w=0,c=0,d=false;const el=document.getElementById('typed');
+(function t(){const s=words[w];c+=d?-1:1;el.textContent=s.slice(0,c);
+ if(!d&&c===s.length){d=true;return setTimeout(t,1400)}
+ if(d&&c===0){d=false;w=(w+1)%words.length}
+ setTimeout(t,d?30:60)})();
+const io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(n=>io.observe(n));
+</script>
 </body>
 </html>
