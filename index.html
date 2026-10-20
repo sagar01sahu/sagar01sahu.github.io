@@ -4,74 +4,108 @@
 <title>Sagar Kumar Sahu — Backend Engineer</title>
 <meta name="description" content="Backend engineer: Java, Spring Boot, Spring AI, Kafka, Redis, microservices.">
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;900&family=Caveat:wght@600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head><body>
+<link rel="stylesheet" href="style.css">
+</head><body>
 
+<aside class="sidebar">
+ <div class="me"><img src="photo.jpg" alt="Sagar Kumar Sahu" onerror="this.outerHTML='<div>SKS</div>'"></div>
+ <div class="otw">💼 Open to Work</div>
+ <h2>Sagar Kumar Sahu</h2><div class="role">Backend Engineer</div><div class="loc">📍 Odisha, India</div>
+ <div class="exp">B.Tech CSE · CGPA 9.07<br>Experience includes:</div>
+ <div class="logos"><span>VIT</span><span>BS</span></div>
+ <div class="mrow"><a class="msg" href="mailto:sagar27sahu@gmail.com">✉ Message</a><a class="bm" href="#resume" title="Resume">🔖</a></div>
+ <hr><a class="sl" href="#about">👤 Profile</a><a class="sl on" href="#work">💼 Portfolio</a>
+</aside>
+
+<div class="side"><a id="theme" title="Dark mode">◐</a><a href="mailto:sagar27sahu@gmail.com" title="Email">✉</a><a href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank" title="LinkedIn">in</a><a href="https://github.com/sagar01sahu" target="_blank" title="GitHub">⌥</a></div>
+<div class="dots" id="dots"></div>
+<div id="cursor"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M3 2l18 8-8 3-3 8z" fill="#3B5BF5"/></svg><b>You</b></div>
+
+<div class="shell">
 <header class="top"><a class="logo" href="#home">SK</a>
-<nav><a href="#home">Home</a><a href="#work">Work</a><a href="#lab">Lab</a><a href="#about">About</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav></header>
-<div class="side"><a href="mailto:sagar27sahu@gmail.com" title="Email">✉</a><a href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank" title="LinkedIn">in</a><a href="https://github.com/sagar01sahu" target="_blank" title="GitHub">⌥</a><a href="#resume" title="Resume">📄</a></div>
+<nav><a href="#home">⌂ Home</a><a href="#work">💼 Work</a><a href="#lab">⚗ Lab</a><a href="#about">◉ About</a><a href="#resume">📄 Resumé</a></nav></header>
 
 <main>
 <section class="page" id="p-home">
  <div class="hero">
-  <div class="tile" style="top:12%;left:7%">☕</div><div class="tile" style="top:8%;right:9%;animation-delay:-2s">🍃</div>
-  <div class="tile" style="top:48%;left:3%;animation-delay:-4s">🤖</div><div class="tile" style="top:52%;right:4%;animation-delay:-1s">⚡</div>
-  <div class="tile" style="bottom:7%;left:16%;animation-delay:-3s">🐘</div><div class="tile" style="bottom:6%;right:17%;animation-delay:-5s">📨</div>
+  <div class="tile" style="top:12%;left:6%">☕</div><div class="tile" style="top:7%;right:8%;animation-delay:-2s">🍃</div>
+  <div class="tile" style="top:46%;left:3%;animation-delay:-4s">🤖</div><div class="tile" style="top:50%;right:3%;animation-delay:-1s">⚡</div>
+  <div class="tile" style="bottom:8%;left:17%;animation-delay:-3s">🐘</div><div class="tile" style="bottom:6%;right:18%;animation-delay:-5s">📨</div>
   <div class="eyebrow">— Portfolio · Backend Engineering —</div>
-  <h1>Systems I've built<br><b>to survive real traffic</b></h1>
-  <p>Railway booking, e-commerce, microservices and a Spring AI RAG app — Java &amp; Spring Boot, built end to end.</p>
-  <div class="stats"><div><b>04</b><span>Projects</span></div><div><b>9.07</b><span>CGPA</span></div><div><b>250+</b><span>LeetCode</span></div><div><b>10770</b><span>GATE AIR</span></div></div>
-  <a class="btn" href="#work">Explore my work ↓</a>
+  <h1>Systems I've built<br><b>&amp; shipped</b></h1>
+  <p>From railway booking and e-commerce to microservices and a Spring AI RAG app — Java &amp; Spring Boot, end to end.</p>
+  <div class="stats"><div><b>04</b><span>Projects</span></div><div><b>9.07</b><span>CGPA</span></div><div><b>250+</b><span>LeetCode</span></div></div>
+  <a class="down" href="#deep">↓</a>
  </div>
- <div class="sec"><div class="script">Hi, I'm Sagar</div><h2>Backend engineer, CS undergrad</h2><p>Backend-focused software engineer skilled in Java, Spring Boot and microservices, building secure REST APIs, JWT auth and scalable systems with caching and concurrency control.</p>
- <a class="btn o" href="#lab">Try the Backend Lab →</a></div>
+ <div class="sec" id="deep"><div class="script">Deep dives</div><h2>Selected work</h2><p>A selection of systems I've shaped end-to-end — open any to read the details.</p></div>
+ <div class="grid" id="grid2"></div>
+ <div style="text-align:center"><a class="btn" href="#work">View all projects ↗</a></div>
 </section>
 
 <section class="page" id="p-work">
- <div class="sec" style="margin-top:30px"><div class="script">Deep dives</div><h2>Case studies</h2><p>Four projects — open any card for details and repo links.</p></div>
- <div class="grid" id="grid"></div>
+ <div class="hero mini"><div class="eyebrow">— Portfolio · Backend —</div><h1>Projects I've <b>built</b></h1><p>Backend systems from problem to repository.</p></div>
+ <div class="tabs" id="wtabs"><button class="on" data-w="w1">Case Studies <em>04</em></button><button data-w="w2">DSA &amp; Practice <em>01</em></button></div>
+ <div class="wt" id="w1"><div class="sec" style="margin-top:20px"><div class="script">Deep dives</div><h2>Case studies</h2><p>Four projects — open any card for details and repo links.</p></div><div class="grid" id="grid"></div></div>
+ <div class="wt" id="w2" hidden><div class="sec" style="margin-top:20px"><div class="script">Daily practice</div><h2>DSA &amp; Practice</h2><p>250+ problems solved on LeetCode — my submissions live on GitHub.</p></div>
+  <div class="grid"><a class="pc" style="background-color:#4a6fe3;background-image:radial-gradient(rgba(255,255,255,.14) 1.2px,transparent 1.2px),linear-gradient(160deg,#4a6fe3,#1a2f7a)" href="https://github.com/sagar01sahu/neetcode-submissions.git" target="_blank"><div class="num">01</div><div class="arr">↗</div><div class="ico">🧩</div><h3>NeetCode Submissions</h3><p>My solutions to 250+ data structure and algorithm problems.</p><div class="tg"><span>DSA</span><span>Practice</span></div></a></div></div>
 </section>
 
 <section class="page" id="p-lab">
- <div class="sec" style="margin-top:30px"><div class="script">Where craft meets compute</div><h2>Backend Lab</h2><p>Live, simplified simulations of problems I solved in my projects. Click to run them.</p></div>
- <div class="tabs"><button class="on" data-t="t1">Optimistic Locking</button><button data-t="t2">Redis Cache</button><button data-t="t3">Spring AI</button></div>
+ <div class="hero lab"><div class="term-pill"><i></i><i></i><i></i><span class="mono">~/sagar/lab $ </span><b class="mono" id="typed"></b><u></u></div>
+  <h1 class="giant">Backend Lab</h1>
+  <p>Where code meets concurrency. A living workspace of the backend and AI problems I've worked on — retrieval pipelines, race conditions and caching — with runnable demos.</p>
+  <div class="tp"><span>🍃 Spring AI</span><span>✦ Gemini</span><span>🗄 MariaDB Vector</span><span>⚡ Redis</span><span>☕ JPA</span></div>
+  <div class="mono note">// live in the lab — click the demos below</div></div>
+ <div class="tabs sticky" id="ltabs"><button class="on" data-s="s1">✦ Simple RAG</button><button data-s="s4">🔒 Concurrency</button><button data-s="s5">⚡ Caching</button></div>
 
- <div class="lt" id="t1"><div class="chips"><span>RailConnect</span><span>JPA @Version</span><span>MySQL</span></div>
-  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; two requests → seat S12</div><pre id="o1"><span class="k"># Two users try to book the same seat at once</span></pre>
-  <div class="ctrl"><button class="btn" id="fire">▶ Fire 2 concurrent bookings</button><label><input type="checkbox" id="ver" checked> @Version enabled</label></div></div></div>
+ <div class="live"><span class="mono">● LIVE EXPLORATION</span><h2>Building a <em>RAG</em> app with Spring AI.</h2><p>Upload a document, ask questions, and get answers grounded only in what you uploaded.</p>
+  <div class="chips"><span>gemini-2.5-flash</span><span>gemini-embedding-001</span><span>MariaDB 11.7</span><span>Java 21</span><span>top-4 chunks</span></div></div>
 
- <div class="lt" id="t2" hidden><div class="chips"><span>RailConnect</span><span>@Cacheable</span><span>Redis</span></div>
-  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; GET /trains?from=BAM&amp;to=NDLS</div><pre id="o2"><span class="k"># Search trains and watch the cache</span></pre><div class="meter"><i id="m"></i></div>
-  <div class="ctrl"><button class="btn" id="search">Search trains</button><button class="btn o" id="evict" style="color:#fff;border-color:#3a4686">@CacheEvict</button></div></div></div>
+ <div class="ls" id="s1"><div class="sh"><div class="big">01</div><div><div class="script">The approach</div><h2>Grounded answers, nothing invented</h2><p>The model may only answer from retrieved chunks of your own document.</p></div></div>
+  <div class="four"><div class="box"><span>📥</span><h4>Ingest</h4><p>PDF, DOCX or TXT uploaded via REST, text read with Tika, cleaned and chunked.</p></div><div class="box"><span>🧮</span><h4>Embed</h4><p>Chunks embedded with Gemini and stored as vectors in MariaDB.</p></div><div class="box"><span>🔎</span><h4>Retrieve</h4><p>Question embedded; cosine similarity finds the top 4 chunks.</p></div><div class="box"><span>💬</span><h4>Answer</h4><p>Spring AI ChatClient generates the reply with source file names.</p></div></div></div>
 
- <div class="lt" id="t3" hidden><div class="chips"><span>Simple RAG Q&amp;A</span><span>Spring AI</span><span>Gemini</span><span>MariaDB Vector</span></div>
-  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; POST /api/ask</div><pre id="o3"><span class="k"># Click to trace one question through my RAG pipeline</span></pre>
-  <div class="ctrl"><button class="btn" id="ask">▶ Ask a question</button><label>Upload → Tika → chunk → embed → store → retrieve → answer</label></div></div></div>
+ <div class="ls" id="s2"><div class="sh"><div class="big">02</div><div><div class="script">Rough sketch</div><h2>The pipeline, drawn first</h2><p>Two flows: ingestion on upload, and question answering on ask.</p></div></div>
+  <div class="sketch"><div class="flow"><i>Upload file</i><u>→</u><i>Tika read</i><u>→</u><i>Clean + chunk</i><u>→</u><i>Gemini embed</i><u>→</u><i>MariaDB vectors</i></div>
+  <div class="flow"><i>Question</i><u>→</u><i>Embed</i><u>→</u><i>Top 4 search</i><u>→</u><i>Prompt + context</i><u>→</u><i>Gemini → answer</i></div></div></div>
+
+ <div class="ls" id="s3"><div class="sh"><div class="big">03</div><div><div class="script">Run it</div><h2>Trace one question</h2><p>Click to step through what happens on <code>POST /api/ask</code>.</p></div></div>
+  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; sagar → spring-ai · rag</div><pre id="o3"><span class="k"># Click to trace one question through the pipeline</span></pre><div class="ctrl"><button class="btn" id="ask">▶ Ask a question</button></div></div></div>
+
+ <div class="ls" id="s4"><div class="sh"><div class="big">04</div><div><div class="script">Concurrency</div><h2>Two users, one seat</h2><p>Optimistic locking in RailConnect with JPA <code>@Version</code>.</p></div></div>
+  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; two requests → seat S12</div><pre id="o1"><span class="k"># Two users try to book the same seat at once</span></pre><div class="ctrl"><button class="btn" id="fire">▶ Fire 2 concurrent bookings</button><label><input type="checkbox" id="ver" checked> @Version enabled</label></div></div></div>
+
+ <div class="ls" id="s5"><div class="sh"><div class="big">05</div><div><div class="script">Caching</div><h2>~50ms down to ~2ms</h2><p>Redis <code>@Cacheable</code> / <code>@CacheEvict</code> on train search.</p></div></div>
+  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; GET /trains?from=BAM&amp;to=NDLS</div><pre id="o2"><span class="k"># Search trains and watch the cache</span></pre><div class="meter"><i id="m"></i></div><div class="ctrl"><button class="btn" id="search">Search trains</button><button class="btn" id="evict" style="background:#1b2559;box-shadow:none">@CacheEvict</button></div></div></div>
+
+ <div class="ls" id="s6"><div class="sh"><div class="big">06</div><div><div class="script">Field notes</div><h2>What building it taught me</h2><p>What Spring AI handled, and what I had to steer.</p></div></div>
+  <div class="two"><div class="box"><span class="pl">SPRING AI HANDLED</span><h4>Pipeline plumbing</h4><p>Document reading, vector-store integration and ChatClient wiring took very little code.</p></div><div class="box"><span class="pl">I STEERED</span><h4>Embedding dimensions</h4><p>The vector table's <code>dimensions</code> must match the embedding model, or inserts fail.</p></div><div class="box"><span class="pl">SPRING AI HANDLED</span><h4>Retrieval</h4><p>Cosine similarity search over MariaDB returned the relevant chunks directly.</p></div><div class="box"><span class="pl">I STEERED</span><h4>Grounding</h4><p>The prompt had to force "answer only from context", or say it doesn't know.</p></div></div></div>
+
+ <div class="ls" id="s7"><div class="sh"><div class="big">07</div><div><div class="script">My take</div><h2>Thoughts on this approach</h2><p>Where it works, and what is still missing.</p></div></div>
+  <div class="two"><div class="box adv"><h4>✓ Advantages</h4><ul><li><b>Grounded</b> — answers come from your uploaded content.</li><li><b>Sources shown</b> — responses include file names.</li><li><b>Simple stack</b> — one Spring Boot app plus one MariaDB container.</li></ul></div>
+  <div class="box"><h4>△ Trade-offs</h4><ul><li><b>No auth</b> — all documents share one vector store.</li><li><b>No duplicate detection</b> — re-uploads store chunks again.</li><li><b>Top 4 only</b> — and no chat memory between questions.</li></ul></div></div></div>
 </section>
 
 <section class="page" id="p-about">
- <div class="sec" style="margin-top:30px"><div class="script">Behind the code</div><h2>About me</h2></div>
+ <div class="sec" style="margin-top:30px"><div class="script">Behind the code</div><h2>About me</h2><p>Backend-focused software engineer skilled in Java, Spring Boot and microservices, building secure REST APIs, JWT auth and scalable systems with caching and concurrency control.</p></div>
  <div class="two">
-  <div class="box" style="text-align:center"><div class="me"><img src="photo.jpg" alt="Sagar" onerror="this.outerHTML='<div>SKS</div>'"></div>
-   <h3>Sagar Kumar Sahu</h3><p style="color:var(--mut);margin:0">B.Tech CSE · VIT Bhopal (2023–27) · CGPA 9.07<br>Berhampur, Odisha · English, Hindi, Odia</p></div>
   <div class="box"><h3>Skills</h3><div class="pills"><span class="ai">Spring AI</span><span>Java</span><span>Python</span><span>SQL</span><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span><span>JWT (JJWT)</span><span>Hibernate</span><span>JPA</span><span>REST APIs</span><span>GraphQL</span><span>Microservices</span><span>System Design</span><span>Distributed Systems</span><span>Spring Cloud</span><span>Kafka</span><span>Redis</span><span>Docker</span><span>Optimistic Locking</span><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Git</span><span>GitHub Actions</span><span>Maven</span><span>Postman</span><span>Lombok</span><span>HTML5</span><span>CSS3</span></div></div>
-  <div class="box tl"><h3>Experience</h3><small>MAY – JUN 2025</small><b>SDE Intern · Bluestock Fintech</b><p>Backend development of platform features on REST API modules in an agile team; debugging, testing and performance improvements; code reviews and daily stand-ups.</p></div>
-  <div class="box tl"><h3>Achievements</h3><b>GATE 2026 CS — AIR 10770</b><p>Score 461</p><b>NPTEL Marketing Analytics — Elite, Top 5%</b><p>IIT Kharagpur, 2026</p><b>NPTEL Intro to ML (IIT Madras) · Google Networking (Coursera)</b><p>2025 · 2024</p><b>250+ DSA problems on LeetCode</b><p><a href="https://github.com/sagar01sahu/neetcode-submissions.git" target="_blank" style="color:var(--ac)">My submissions on GitHub ↗</a></p></div>
+  <div class="box tl"><h3>Experience</h3><small>MAY – JUN 2025</small><b>SDE Intern · Bluestock Fintech</b><p>Backend development of platform features on REST API modules in an agile team; debugging, testing and performance improvements; code reviews and daily stand-ups.</p>
+   <h3>Education</h3><small>2023 – 2027 (EXPECTED)</small><b>B.Tech CSE · VIT Bhopal University</b><p>CGPA 9.07/10. DSA, OOP, DBMS, OS, Networks, Software Engineering, System Design.</p></div>
+  <div class="box tl"><h3>Achievements</h3><b>GATE 2026 CS — AIR 10770</b><p>Score 461</p><b>NPTEL Marketing Analytics — Elite, Top 5%</b><p>IIT Kharagpur, 2026</p><b>NPTEL Intro to ML · Google Networking</b><p>IIT Madras 2025 · Coursera 2024</p><b>250+ DSA problems on LeetCode</b><p><a href="https://github.com/sagar01sahu/neetcode-submissions.git" target="_blank" style="color:var(--ac)">Submissions on GitHub ↗</a></p></div>
+  <div class="box"><h3>Languages</h3><div class="pills"><span>English</span><span>Hindi</span><span>Odia</span></div><h3 style="margin-top:24px">Connect</h3><div class="pills"><a href="https://github.com/sagar01sahu" target="_blank"><span>GitHub</span></a><a href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank"><span>LinkedIn</span></a><a href="https://sagar01sahu.github.io/" target="_blank"><span>Portfolio</span></a></div></div>
  </div>
 </section>
 
 <section class="page" id="p-resume">
- <div class="sec" style="margin-top:30px"><div class="script">The short version</div><h2>Resume</h2><p>Read it right here, or download a copy.</p>
+ <div class="sec" style="margin-top:30px"><div class="script">The short version</div><h2>Resumé</h2><p>Read it right here, or download a copy.</p>
  <a class="btn" href="resume.pdf" download>⬇ Download PDF</a> <a class="btn o" href="resume.pdf" target="_blank">Open in new tab ↗</a></div>
  <div class="pdfbox"><object data="resume.pdf#view=FitH" type="application/pdf"><p style="padding:30px;text-align:center">Your browser can't show PDFs inline. <a href="resume.pdf" target="_blank" style="color:var(--ac)">Open the resume ↗</a></p></object></div>
 </section>
-
-<section class="page" id="p-contact">
- <div class="sec" style="margin-top:30px"><div class="script">Let's talk</div><h2>Have a backend problem<br>worth solving?</h2><p>Looking for Backend / Java engineering roles and internships.</p>
- <div class="links"><a class="btn" href="mailto:sagar27sahu@gmail.com">sagar27sahu@gmail.com</a><a class="btn o" href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank">LinkedIn</a><a class="btn o" href="https://github.com/sagar01sahu" target="_blank">GitHub</a><a class="btn o" href="#resume">Resume</a><a class="btn o" href="tel:+917735626615">+91 77356 26615</a></div></div>
-</section>
 </main>
+<footer>© 2026 Sagar Kumar Sahu · sagar27sahu@gmail.com · +91 77356 26615</footer>
+</div>
 
 <div class="modal" id="modal"><div class="mbox" id="mbox"></div></div>
-<nav class="dock"><a href="#home">⌂<span>Home</span></a><a href="#work">▦<span>Work</span></a><a href="#lab">⚗<span>Lab</span></a><a href="#about">◉<span>About</span></a><a href="#resume">📄<span>Resume</span></a><a href="#contact">✉<span>Contact</span></a></nav>
-
-<script src="script.js"></script></body></html>
+<nav class="dock"><a href="#home">⌂<span>Home</span></a><a href="#work">💼<span>Work</span></a><a href="#lab">⚗<span>Lab</span></a><a href="#about">◉<span>About</span></a><a href="#resume">📄<span>Resumé</span></a></nav>
+<script src="script.js"></script>
+</body></html>
