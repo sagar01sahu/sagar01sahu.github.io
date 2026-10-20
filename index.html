@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sagar Kumar Sahu — Backend Engineer</title>
+<meta name="description" content="Backend engineer: Java, Spring Boot, Spring AI, Kafka, Redis, microservices.">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;900&family=Caveat:wght@600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+
+<header class="top"><a class="logo" href="#home">SK</a>
+<nav><a href="#home">Home</a><a href="#work">Work</a><a href="#lab">Lab</a><a href="#about">About</a><a href="#resume">Resume</a><a href="#contact">Contact</a></nav></header>
+<div class="side"><a href="mailto:sagar27sahu@gmail.com" title="Email">✉</a><a href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank" title="LinkedIn">in</a><a href="https://github.com/sagar01sahu" target="_blank" title="GitHub">⌥</a><a href="#resume" title="Resume">📄</a></div>
+
+<main>
+<section class="page" id="p-home">
+ <div class="hero">
+  <div class="tile" style="top:12%;left:7%">☕</div><div class="tile" style="top:8%;right:9%;animation-delay:-2s">🍃</div>
+  <div class="tile" style="top:48%;left:3%;animation-delay:-4s">🤖</div><div class="tile" style="top:52%;right:4%;animation-delay:-1s">⚡</div>
+  <div class="tile" style="bottom:7%;left:16%;animation-delay:-3s">🐘</div><div class="tile" style="bottom:6%;right:17%;animation-delay:-5s">📨</div>
+  <div class="eyebrow">— Portfolio · Backend Engineering —</div>
+  <h1>Systems I've built<br><b>to survive real traffic</b></h1>
+  <p>Railway booking, e-commerce, microservices and a Spring AI RAG app — Java &amp; Spring Boot, built end to end.</p>
+  <div class="stats"><div><b>04</b><span>Projects</span></div><div><b>9.07</b><span>CGPA</span></div><div><b>250+</b><span>LeetCode</span></div><div><b>10770</b><span>GATE AIR</span></div></div>
+  <a class="btn" href="#work">Explore my work ↓</a>
+ </div>
+ <div class="sec"><div class="script">Hi, I'm Sagar</div><h2>Backend engineer, CS undergrad</h2><p>Backend-focused software engineer skilled in Java, Spring Boot and microservices, building secure REST APIs, JWT auth and scalable systems with caching and concurrency control.</p>
+ <a class="btn o" href="#lab">Try the Backend Lab →</a></div>
+</section>
+
+<section class="page" id="p-work">
+ <div class="sec" style="margin-top:30px"><div class="script">Deep dives</div><h2>Case studies</h2><p>Four projects — open any card for details and repo links.</p></div>
+ <div class="grid" id="grid"></div>
+</section>
+
+<section class="page" id="p-lab">
+ <div class="sec" style="margin-top:30px"><div class="script">Where craft meets compute</div><h2>Backend Lab</h2><p>Live, simplified simulations of problems I solved in my projects. Click to run them.</p></div>
+ <div class="tabs"><button class="on" data-t="t1">Optimistic Locking</button><button data-t="t2">Redis Cache</button><button data-t="t3">Spring AI</button></div>
+
+ <div class="lt" id="t1"><div class="chips"><span>RailConnect</span><span>JPA @Version</span><span>MySQL</span></div>
+  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; two requests → seat S12</div><pre id="o1"><span class="k"># Two users try to book the same seat at once</span></pre>
+  <div class="ctrl"><button class="btn" id="fire">▶ Fire 2 concurrent bookings</button><label><input type="checkbox" id="ver" checked> @Version enabled</label></div></div></div>
+
+ <div class="lt" id="t2" hidden><div class="chips"><span>RailConnect</span><span>@Cacheable</span><span>Redis</span></div>
+  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; GET /trains?from=BAM&amp;to=NDLS</div><pre id="o2"><span class="k"># Search trains and watch the cache</span></pre><div class="meter"><i id="m"></i></div>
+  <div class="ctrl"><button class="btn" id="search">Search trains</button><button class="btn o" id="evict" style="color:#fff;border-color:#3a4686">@CacheEvict</button></div></div></div>
+
+ <div class="lt" id="t3" hidden><div class="chips"><span>Simple RAG Q&amp;A</span><span>Spring AI</span><span>Gemini</span><span>MariaDB Vector</span></div>
+  <div class="term"><div class="bar"><i></i><i></i><i></i>&nbsp; POST /api/ask</div><pre id="o3"><span class="k"># Click to trace one question through my RAG pipeline</span></pre>
+  <div class="ctrl"><button class="btn" id="ask">▶ Ask a question</button><label>Upload → Tika → chunk → embed → store → retrieve → answer</label></div></div></div>
+</section>
+
+<section class="page" id="p-about">
+ <div class="sec" style="margin-top:30px"><div class="script">Behind the code</div><h2>About me</h2></div>
+ <div class="two">
+  <div class="box" style="text-align:center"><div class="me"><img src="photo.jpg" alt="Sagar" onerror="this.outerHTML='<div>SKS</div>'"></div>
+   <h3>Sagar Kumar Sahu</h3><p style="color:var(--mut);margin:0">B.Tech CSE · VIT Bhopal (2023–27) · CGPA 9.07<br>Berhampur, Odisha · English, Hindi, Odia</p></div>
+  <div class="box"><h3>Skills</h3><div class="pills"><span class="ai">Spring AI</span><span>Java</span><span>Python</span><span>SQL</span><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span><span>JWT (JJWT)</span><span>Hibernate</span><span>JPA</span><span>REST APIs</span><span>GraphQL</span><span>Microservices</span><span>System Design</span><span>Distributed Systems</span><span>Spring Cloud</span><span>Kafka</span><span>Redis</span><span>Docker</span><span>Optimistic Locking</span><span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span><span>Git</span><span>GitHub Actions</span><span>Maven</span><span>Postman</span><span>Lombok</span><span>HTML5</span><span>CSS3</span></div></div>
+  <div class="box tl"><h3>Experience</h3><small>MAY – JUN 2025</small><b>SDE Intern · Bluestock Fintech</b><p>Backend development of platform features on REST API modules in an agile team; debugging, testing and performance improvements; code reviews and daily stand-ups.</p></div>
+  <div class="box tl"><h3>Achievements</h3><b>GATE 2026 CS — AIR 10770</b><p>Score 461</p><b>NPTEL Marketing Analytics — Elite, Top 5%</b><p>IIT Kharagpur, 2026</p><b>NPTEL Intro to ML (IIT Madras) · Google Networking (Coursera)</b><p>2025 · 2024</p><b>250+ DSA problems on LeetCode</b><p><a href="https://github.com/sagar01sahu/neetcode-submissions.git" target="_blank" style="color:var(--ac)">My submissions on GitHub ↗</a></p></div>
+ </div>
+</section>
+
+<section class="page" id="p-resume">
+ <div class="sec" style="margin-top:30px"><div class="script">The short version</div><h2>Resume</h2><p>Read it right here, or download a copy.</p>
+ <a class="btn" href="resume.pdf" download>⬇ Download PDF</a> <a class="btn o" href="resume.pdf" target="_blank">Open in new tab ↗</a></div>
+ <div class="pdfbox"><object data="resume.pdf#view=FitH" type="application/pdf"><p style="padding:30px;text-align:center">Your browser can't show PDFs inline. <a href="resume.pdf" target="_blank" style="color:var(--ac)">Open the resume ↗</a></p></object></div>
+</section>
+
+<section class="page" id="p-contact">
+ <div class="sec" style="margin-top:30px"><div class="script">Let's talk</div><h2>Have a backend problem<br>worth solving?</h2><p>Looking for Backend / Java engineering roles and internships.</p>
+ <div class="links"><a class="btn" href="mailto:sagar27sahu@gmail.com">sagar27sahu@gmail.com</a><a class="btn o" href="https://www.linkedin.com/in/sagar-kumar-sahu-/" target="_blank">LinkedIn</a><a class="btn o" href="https://github.com/sagar01sahu" target="_blank">GitHub</a><a class="btn o" href="#resume">Resume</a><a class="btn o" href="tel:+917735626615">+91 77356 26615</a></div></div>
+</section>
+</main>
+
+<div class="modal" id="modal"><div class="mbox" id="mbox"></div></div>
+<nav class="dock"><a href="#home">⌂<span>Home</span></a><a href="#work">▦<span>Work</span></a><a href="#lab">⚗<span>Lab</span></a><a href="#about">◉<span>About</span></a><a href="#resume">📄<span>Resume</span></a><a href="#contact">✉<span>Contact</span></a></nav>
+
+<script src="script.js"></script></body></html>
